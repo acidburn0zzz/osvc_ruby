@@ -6,8 +6,8 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     codeclimate-test-reporter (1.0.8)
       simplecov (<= 0.13)
     crack (0.4.3)
@@ -16,7 +16,7 @@ GEM
     docile (1.1.5)
     hashdiff (0.3.7)
     json (2.1.0)
-    public_suffix (3.0.1)
+    public_suffix (4.0.6)
     rake (10.5.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
@@ -44,6 +44,7 @@ GEM
       hashdiff
 
 PLATFORMS
+  ruby
   x64-mingw32
   x86-mingw32
 
